@@ -16,11 +16,21 @@ es:
 
 /* WRITE YOUR CODE HERE */
 
+let myArray = [1, 3, 5]
+let myRevesedArray = []
+
+for (let i=0; i<myArray.length; i++){
+    myRevesedArray.unshift(myArray[i])
+}
+console.log(myRevesedArray)
+
 /* EXERCISE 2
 Write the code to get the maximum value in an array.
 */
 
 /* WRITE YOUR CODE HERE */
+let array = [1, 100, -25]
+console.log(Math.max(...array))
 
 /* EXERCISE 3
 Write the code to get the minimum value in an array.
@@ -28,11 +38,29 @@ Write the code to get the minimum value in an array.
 
 /* WRITE YOUR CODE HERE */
 
+console.log(Math.min(...array))
+
 /* EXERCISE 4
 Write the code to get only even numerical values in an array.
 */
 
 /* WRITE YOUR CODE HERE */
+// let array2 = [1, 2, 4, 8, 9, 11]
+// let arrayEvened = []
+
+// for (let i=0; i<array2.length; i++){
+
+//     if (!array2[i] % 2){
+//       console.log("hurraaayyyyy")
+//     }
+//     arrayEvened.push()
+
+// }
+let a = 5
+let remain = a % 2
+if (remain === 0){
+    console.log("a is even!")
+}
 
 /* EXERCISE 5
 Write the code to delete even entries from an array.
